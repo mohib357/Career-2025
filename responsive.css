@@ -1,0 +1,91 @@
+/* Mobile devices (max 576px) */
+@media screen and (max-width: 576px) {
+    nav div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-container h1 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .developing-career h2 {
+        font-size: 25px;
+    }
+
+    .skill {
+        flex-direction: column-reverse;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .skill-content {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .skill-img,
+    .Inspiration {
+        width: 100%;
+    }
+
+    .media {
+        width: 90%;
+        height: 300px;
+    }
+
+    .card-conteiner {
+        flex-direction: column;
+        gap: 50px;
+        margin: 10px auto 50px;
+        align-items: center;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    footer div {
+        gap: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .skill {
+        flex-direction: column-reverse;
+        margin: 0 auto 50px auto;
+        text-align: center;
+    }
+
+    .skill-content {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .skill-img,
+    .Inspiration {
+        width: 100%;
+    }
+
+    .media {
+        width: 90%;
+    }
+
+    .card-conteiner {
+        margin: 0 auto;
+        width: 95%;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+}

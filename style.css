@@ -183,23 +183,27 @@ nav div {
     font-size: 16px;
     font-weight: 700;
 }
-.card a:hover{
+
+.card a:hover {
     color: rgb(124, 154, 193);
 }
-footer{
+
+footer {
     background: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: space-between;
     padding: 30px 120px;
     align-items: center;
 }
-footer h4{
+
+footer h4 {
     font-weight: 600;
     font-size: 20px;
     color: rgb(13, 19, 33);
     letter-spacing: 5px;
 }
-footer div{
+
+footer div {
     display: flex;
     gap: 15px;
 }
